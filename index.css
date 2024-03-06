@@ -1,0 +1,251 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #444;
+}
+.item{
+    width: 1200px;
+    height: 500px;
+    background-color: #333;
+    margin: auto;
+}
+.container{
+    width: 1000px;
+    height: 500px;
+    margin: auto;
+}
+.itemTxt{
+    width: 100%;
+    height: 100px;
+    padding: 30px 0px;
+}
+.itemTxt h1{
+    font-size: 46px;
+    color: #fff;
+    
+}
+.itemBox{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.cardItem{
+    width: 24%;
+    height: 100%;
+    border-radius: 10px;
+}
+.cardimg{
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.cardimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.cardtxt{
+    width: 100%;
+    height: 150px;
+    padding: 30px 0;
+}
+.cardtxt h1{
+    font-size: 26px;
+    padding-bottom: 10px;
+    color: #fff;
+    transition: .5s;
+}.cardtxt h1:hover{
+    color: blueviolet;
+}
+.cardtxt p{
+    font-size: 22px;
+    color: #999;
+}
+/* ------ */
+.fooder{
+    width: 100%;
+    height: 700px;
+    background-color: black;
+    overflow: hidden;
+}
+.row{
+    width: 1200px;
+    height: 100%;
+    margin: auto;
+    
+}
+/* ------ */
+.row .col-xl-6{
+    width: 100%;
+    height: 350px;
+    padding: 30px 0px;
+}
+.row .col-xl-6 .row{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.row .col-xl-6 .row .col{
+    width: 19%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.row .col-xl-6 .row .col img{
+    width: 150px;
+    margin-bottom: 20px;
+}
+.row .col-xl-6 .row .col p{
+    color: #fff;
+    padding-bottom: 20px;
+}
+.row .col-xl-6 .row .col a{
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    padding-top: 10px;
+    font-size: 18px;
+}
+.row .col-xl-6 .row .col a:hover{
+    color: aqua;
+}
+/* ----------- */
+.row .col-xl-6 .row .col h1{
+    color: #fff;
+    margin-bottom: 20px;
+}
+.col-xl-7{
+    width: 100%;
+    height: 350px;
+}
+.col-xl-7 .row .col{
+    width: 100%;
+    height: 50%;
+}
+.col-xl-7 .row .col h1{
+    color: #fff;
+    margin-bottom: 20px;
+}
+.col-xl-7 .row .col .link{
+    width: 100%;
+}
+.col-xl-7 .row .col .link a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    display: inline-block;
+    padding-right: 20px;
+    line-height: 35px;
+}
+.col-xl-7 .row .col .link a:hover{
+    color: blueviolet;
+}
+.col-item{
+    width: 100%;
+    height: 100%;
+}
+.card-col{
+    width: 100%;
+    height: 50%;
+    border-bottom: 1px solid #888;
+    display: flex
+}
+.card-col .left{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}.card-col .left h1{
+    font-size: 30px;
+    line-height: 25px;
+}
+.left-img{
+    width: 100%;
+}
+.left-img img{
+    width: 50px;
+    margin-right: 10px;
+}
+.card-col .rigth{
+    width: 50%;
+    height: 100%;
+    float: right;
+}
+.card-col .rigth h1{
+    float: right;
+    font-size: 30px;
+    line-height: 25px;
+}
+.rigth .rigth-icon{
+    float: right;
+    clear: right;
+    
+}
+.blue{
+    background-color: rgb(0, 98, 255);
+}
+.coral{
+    background-color: coral;
+    
+}
+.darkturquoise{
+    background-color: darkturquoise;
+}
+.deepskyblue{
+    background-color: deepskyblue;
+}
+.rigth .rigth-icon i{
+    width: 35px;
+    height: 35px;
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+    text-align: center;
+    margin-left: 10px;
+}
+/* ------ */
+.card-Txt{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+}
+.card-Txt .left{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.card-Txt .left p{
+    font-size: 18px;
+    color: #fff;
+}
+.card-Txt .left a{
+    text-decoration: none;
+    color: #fff;
+}.card-Txt .left a:hover{
+    color: blueviolet;
+}
+.card-Txt .rigth{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.card-Txt .rigth a{
+    font-size: 18px;
+    color: #fff;
+    margin-left: 20px;
+    text-decoration: none;
+}
+.card-Txt .rigth a:hover{
+    color: blueviolet;
+}
